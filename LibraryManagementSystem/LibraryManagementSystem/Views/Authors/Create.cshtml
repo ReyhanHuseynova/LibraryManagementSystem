@@ -1,0 +1,66 @@
+﻿
+@model Author
+<div class="col-sm-12 col-xl-9" style="margin-top:30px; margin-left:50px">
+    <div class="bg-light rounded h-100 p-4">
+        <h6 class="mb-4">Create Authors</h6>
+        <form method="post">
+            <div class="mb-3">
+                <label asp-for="BookName" class="form-label"></label>
+                <input asp-for="BookName" class="form-control">
+                <span asp-validation-for="BookName" class="text-danger"></span>
+               
+            </div>
+            <div class="mb-3">
+                <label asp-for="FirstName" class="form-label"></label>
+                <textarea asp-for="FirstName" class="form-control"></textarea>
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="LastName" class="form-label"></label>
+                <textarea asp-for="LastName" class="form-control"></textarea>
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <select class="form-select" name="publiserSelect"
+                        aria-label="Floating label select example">
+                    <option selected>Open this select menu</option>
+                    @foreach (Publiser pub in ViewBag.Publiser)
+                    {
+                        <option value="@pub.Id">@pub.FirstName @pub.LastName</option>
+
+                    }
+                </select>
+                <label for="floatingSelect">Select Publiser</label>
+            </div>
+            <div class="form-floating mb-3">
+                <select class="form-select" name="rackSelect"
+                        aria-label="Floating label select example">
+                    <option selected>Open this select menu</option>
+                    @foreach(Rack rack in ViewBag.Rack)
+                    {
+                        <option value="@rack.Id">@rack.RackNumber</option>
+                    }
+                </select>
+                <label for="floatingSelect">Select Rack</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <select class="form-select" name="catSelect"
+                        aria-label="Floating label select example">
+                    <option selected>Open this select menu</option>
+                    @foreach (Category cat in ViewBag.Cat)
+                    {
+                        <option value="@cat.Id">@cat.CategoryName</option>
+                    }
+                </select>
+                <label for="floatingSelect">Select Category</label>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a asp-action="Index" class="btn btn-dark">Back</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
