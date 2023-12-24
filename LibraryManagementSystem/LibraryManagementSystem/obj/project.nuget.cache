@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VJnFvPPF6MJsPajHLmDKtB+B1Jr0JnPb8dVwCb1ivf0vw3OwgNDgKZp9wVjV3jQ7clUW9NqLMhrnVe5uqQ7SCA==",
+  "dgSpecHash": "GnO8m7MqB/kO094U6Xs7C7Aq4Fh5/r4Fj5iiWK4aq/rShWxZsjkO996iDyFvRsiqUzb20vEO1ra41c+VBUDMBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\İş masası\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\LibraryGit\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",

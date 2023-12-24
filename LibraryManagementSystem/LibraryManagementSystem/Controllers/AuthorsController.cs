@@ -3,6 +3,7 @@ using LibraryManagementSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace LibraryManagementSystem.Controllers
@@ -120,6 +121,26 @@ namespace LibraryManagementSystem.Controllers
             }
             await _db.SaveChangesAsync();
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Search(string bookname)
+        {
+           List<Author> a = _db.Authors.Where(a => a.BookName.Trim().ToUpper().Contains(bookname.Trim().ToUpper())).ToList();
+            if(a!=null)
+            {
+                return View("SearchDetail",a);
+
+            }
+            else
+            {
+                return NotFound("Bele bir kitab yoxdur!");  
+            }
+
+        }
+
+        public IActionResult SearchDetail()
+        {
+            return View();
         }
     }
 }

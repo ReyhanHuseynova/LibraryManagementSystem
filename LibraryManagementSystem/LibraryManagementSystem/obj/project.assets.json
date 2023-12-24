@@ -7640,11 +7640,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\LibraryGit\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "projectName": "LibraryManagementSystem",
-      "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\LibraryGit\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\ACER\\OneDrive\\İş masası\\GitProjects\\LibraryGit\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7715,7 +7715,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
